@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>hello page - maty.js</title>
+</head>
+<body>
+  <h3>Hi, this is a hello page with maty.js</h3>
+  {% if type %}
+  <p>get type '{{ type }}' form `router.handle` method.</p>
+  {% endif %}
+
+  {% if ctx.param.name %}
+  <p>get name '{{ ctx.param.name }}' form `ctx.param.name` with inner object ctx.</p>
+  {% endif %}
+</body>
+</html>
