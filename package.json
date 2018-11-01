@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "koa-router": "^7.4.0",
-    "maty": "^1.0.2"
+    "maty": "^1.0.4"
   }
 }
